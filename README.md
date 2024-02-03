@@ -7,7 +7,7 @@ This data analysis aims to provide insights into the progress of the water servi
 
 ### Maji Ndogo water source
  
-The primary dataset used for this analysis is the ["md_water_services"](https://https://drive.google.com/file/d/1nXeoG9nnSs4oiVvft3K9VFUfRiYzvTJF/view?usp=sharing) data, containing detailed information about each water source, employee performance and water quality.
+The primary dataset used for this analysis is the ["md_water_services"](https://drive.google.com/file/d/1nXeoG9nnSs4oiVvft3K9VFUfRiYzvTJF/view?usp=sharing) data, containing detailed information about each water source, employee performance and water quality.
 Tools
 
 •	Sql server - Data Analysis
