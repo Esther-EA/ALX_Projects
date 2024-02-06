@@ -2,13 +2,17 @@
 
 ## Project Overview
 
+### Phase 1:
 This data analysis aims to provide insights into the progress of the water services of a fictitious country, Maji Ndogo, over the past year. By analyzing various aspects of the water quality data, we seek to identify the problems each water source and the community faces and also the effectiveness of the employees in charge. To make data-driven recommendations and gain deep understanding of the performance we harnessed the power of SQL functions to clean, aggregate data and unravel the scale of the problem to form some actionable insights.
+
+### Phase 2:
+This project involved confirming removing fake data and fighting corruption in Maji Ndogo. It involves comparing datasets on water quality scores from a turned in data (auditor_report) and filtering errors from the data. Investigating into this errors revealed some corruption during the survey for water sources in Maji Ndogo. Getting the average number of mistakes and comparing with the number of mistakes made by certain employees enabled me get the employees that made above the average number of mistakes. With the statements from the location surveyed by the suspected employees, it was revealed that there was corrupt practices going on. This projejct enabled me to reinforce my knowledge on CTEs, subqueries and views in MySQL.
+
 ## Data Sources
 
 ### Maji Ndogo water source
  
-The primary dataset used for this analysis is the ["md_water_services"](https://drive.google.com/file/d/1nXeoG9nnSs4oiVvft3K9VFUfRiYzvTJF/view?usp=sharing) data, containing detailed information about each water source, employee performance and water quality.
-Tools
+The primary dataset used for this analysis is the ["md_water_services"](https://drive.google.com/file/d/1nXeoG9nnSs4oiVvft3K9VFUfRiYzvTJF/view?usp=sharing) data, containing detailed information about each water source, employee performance and water quality and tools. ["adult_report.csv"](https://drive.google.com/file/d/1IbJZyDn_-8qf-N74kfXLwY4d-Vw9reQz/view?usp=sharing) was also added to the table in the second phase to conduct deep analysis on data inconsistencies.
 
 •	Sql server - Data Analysis
 ## Data Cleaning/Preparation
@@ -56,6 +60,7 @@ Based on the analysis, we recommend the following actions:
 
 •	Addressing broken infrastructure offers a significant impact even with just a single intervention. It is expensive to fix, but so many people can benefit from repairing one facility. For example, fixing a reservoir or pipe that multiple taps are connected to. We will have to find the commonly affected areas to see where the problem actually is.
 
+•	Based on the data, corruption alligations have been made against four officials who we suspect must have received bribes.  
 
 
 
